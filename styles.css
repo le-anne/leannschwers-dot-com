@@ -61,10 +61,12 @@ table {
 
 .about {
     margin: auto;
-    margin-top: 2%;
+    margin-top: 1.25%;
     width: 24em;
-    border: 1px solid #D90368;
-    padding: 1em;
+    border: 3px solid #D90368;
+    border-style: double;
+    border-radius: 45px;
+    padding: 1.5em;
 }
 
 a {
@@ -74,6 +76,7 @@ a {
 .header {
     text-align: center;
     font-size: 2em;
+    font-weight: 600;
     color: #04A777;
     margin: auto;
     margin-top: 10%;
@@ -109,6 +112,5 @@ a {
         margin-bottom: 5%;
         width: 50%;
         border-bottom: 0px dotted #04A777;
-    
     }
 }
